@@ -1,5 +1,5 @@
 
-# Docker + PHP 8.3 + Xdebug 3 + Postgresql 13.6 + Nginx 1.21 + Symfony skeleton 7.*
+# Docker + PHP 8.3 + Xdebug 3 + Postgresql 13.6 + Nginx 1.21 + Symfony skeleton 7.1.*
 
 ## Description
 
@@ -40,7 +40,7 @@ Here are the docker-compose built images:
    ```
 3. Create a new Symfony project
    ```
-   composer create-project symfony/skeleton:"7.*" .
+   composer create-project symfony/skeleton:"7.1.*" .
    ```
 You Symfony project will be installed in ``/app`` folder. Now you can access it from the browser through the domain that you have specified in the `NGINX_SERVER_NAME` variable of the `.env` file.
 
